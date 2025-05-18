@@ -1,8 +1,10 @@
 from flask import Flask, render_template, request
 import json
+import os
 
 app = Flask(__name__)
 
+# 治療レジメンデータを読み込む
 with open("treatments.json", "r", encoding="utf-8") as f:
     treatments = json.load(f)
 
@@ -22,4 +24,5 @@ def result():
     return "該当する治療レジメンが見つかりませんでした"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))  # Renderが使う環境変数PORTを利用
+    app.run(host="0.0.0.0", port=port)
