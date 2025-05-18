@@ -1,0 +1,134 @@
+[
+  {
+    "mutation": "EGFR",
+    "histology": "腺癌",
+    "regimen": "オシメルチニブ単剤",
+    "recommendation": "推奨度1、エビデンスA",
+    "trial": {
+      "name": "FLAURA試験",
+      "design": "EGFR変異陽性NSCLC（Ⅳ期）に対するオシメルチニブと1世代EGFR-TKIの第3相無作為化試験",
+      "primary": "PFS: オシメルチニブ群 18.9か月 vs ゲフィチニブ/エルロチニブ群 10.2か月 (HR 0.46)",
+      "secondary": "OS: 38.6か月 vs 31.8か月 (HR 0.80)"
+    }
+  },
+  {
+    "mutation": "ALK",
+    "histology": "腺癌",
+    "regimen": "アレクチニブ単剤",
+    "recommendation": "推奨度1、エビデンスA",
+    "trial": {
+      "name": "ALEX試験",
+      "design": "ALK陽性未治療Ⅳ期NSCLCに対するアレクチニブ vs クラゾチニブの第3相比較試験",
+      "primary": "PFS: アレクチニブ群 25.7か月 vs クラゾチニブ群 10.4か月",
+      "secondary": "中枢神経系への移行抑制、OS傾向延長"
+    }
+  },
+  {
+    "mutation": "ROS1",
+    "histology": "腺癌",
+    "regimen": "クリゾチニブ単剤",
+    "recommendation": "推奨度1、エビデンスB",
+    "trial": {
+      "name": "EUROS1試験等",
+      "design": "ROS1融合陽性NSCLCに対するクリゾチニブの多施設共同非盲検試験",
+      "primary": "奏効率：約70%",
+      "secondary": "PFS中央値：15.9か月"
+    }
+  },
+  {
+    "mutation": "BRAF",
+    "histology": "腺癌",
+    "regimen": "ダブラフェニブ＋トラメチニブ併用療法",
+    "recommendation": "推奨度2、エビデンスB",
+    "trial": {
+      "name": "BRF113928試験",
+      "design": "BRAF V600E陽性Ⅳ期NSCLC対象の非盲検第2相試験",
+      "primary": "奏効率：63.2%",
+      "secondary": "PFS中央値：9.7か月"
+    }
+  },
+  {
+    "mutation": "RET",
+    "histology": "腺癌",
+    "regimen": "セルペルカチニブ単剤",
+    "recommendation": "推奨度1、エビデンスB",
+    "trial": {
+      "name": "LIBRETTO-001試験",
+      "design": "RET融合陽性NSCLCに対するセルペルカチニブの第1/2相試験",
+      "primary": "奏効率：64%",
+      "secondary": "PFS中央値：16.5か月"
+    }
+  },
+  {
+    "mutation": "MET",
+    "histology": "腺癌",
+    "regimen": "テポチニブ単剤",
+    "recommendation": "推奨度1、エビデンスB",
+    "trial": {
+      "name": "VISION試験",
+      "design": "MET exon14 skipping陽性Ⅳ期NSCLCに対するテポチニブの第2相試験",
+      "primary": "奏効率：46%",
+      "secondary": "PFS中央値：8.5か月"
+    }
+  },
+  {
+    "mutation": "KRAS",
+    "histology": "腺癌",
+    "regimen": "ソトラシブ単剤",
+    "recommendation": "推奨度2、エビデンスB",
+    "trial": {
+      "name": "CodeBreaK 100試験",
+      "design": "KRAS G12C陽性Ⅳ期NSCLCに対するソトラシブの単群非盲検第2相試験",
+      "primary": "奏効率：37%",
+      "secondary": "PFS中央値：6.8か月"
+    }
+  },
+  {
+    "mutation": "HER2",
+    "histology": "腺癌",
+    "regimen": "トラスツズマブ デルクステカン単剤",
+    "recommendation": "推奨度2、エビデンスB",
+    "trial": {
+      "name": "DESTINY-Lung01試験",
+      "design": "HER2変異陽性NSCLC対象のトラスツズマブ デルクステカン第2相試験",
+      "primary": "奏効率：55%",
+      "secondary": "PFS中央値：8.2か月"
+    }
+  },
+  {
+    "mutation": "NTRK",
+    "histology": "腺癌",
+    "regimen": "ラロトレクチニブ単剤",
+    "recommendation": "推奨度1、エビデンスB",
+    "trial": {
+      "name": "NAVIGATE試験など",
+      "design": "TRK融合陽性腫瘍対象のバスケット試験",
+      "primary": "奏効率：75%",
+      "secondary": "PFS中央値：>10か月"
+    }
+  },
+  {
+    "mutation": "None",
+    "histology": "腺癌",
+    "regimen": "アテゾリズマブ＋カルボプラチン＋ペメトレキセド",
+    "recommendation": "推奨度1、エビデンスA",
+    "trial": {
+      "name": "IMpower150試験",
+      "design": "遺伝子変異陰性Ⅳ期NSCLCに対する免疫＋化学療法の第3相試験",
+      "primary": "PFS：8.3か月 vs 6.8か月（HR 0.59）",
+      "secondary": "OS：19.8か月 vs 14.9か月（HR 0.76）"
+    }
+  },
+  {
+    "mutation": "None",
+    "histology": "扁平上皮癌",
+    "regimen": "ペムブロリズマブ＋カルボプラチン＋パクリタキセル",
+    "recommendation": "推奨度1、エビデンスA",
+    "trial": {
+      "name": "KEYNOTE-407試験",
+      "design": "Ⅳ期扁平上皮癌対象の免疫＋化学療法 vs 化学療法単独 第3相試験",
+      "primary": "OS：17.1か月 vs 11.6か月（HR 0.71）",
+      "secondary": "PFS：6.4か月 vs 4.8か月（HR 0.56）"
+    }
+  }
+]

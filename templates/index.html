@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ⅳ期肺癌 治療提案ツール</title>
+</head>
+<body>
+    <h1>Ⅳ期肺癌 治療提案ツール</h1>
+    <form action="/result" method="POST">
+        <label>遺伝子変異:</label>
+        <select name="mutation">
+            <option value="EGFR">EGFR陽性</option>
+            <option value="ALK">ALK陽性</option>
+            <option value="ROS1">ROS1陽性</option>
+            <option value="BRAF">BRAF V600E陽性</option>
+            <option value="RET">RET陽性</option>
+            <option value="MET">MET exon14 skipping陽性</option>
+            <option value="KRAS">KRAS G12C陽性</option>
+            <option value="HER2">HER2陽性</option>
+            <option value="NTRK">NTRK陽性</option>
+            <option value="None">遺伝子変異陰性</option>
+        </select><br>
+
+        <label>組織型:</label>
+        <select name="histology">
+            <option value="腺癌">腺癌</option>
+            <option value="扁平上皮癌">扁平上皮癌</option>
+        </select><br>
+
+        <input type="submit" value="治療提案を見る">
+    </form>
+</body>
+</html>

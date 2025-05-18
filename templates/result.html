@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>治療提案</title>
+</head>
+<body>
+    <h2>推奨治療レジメン：{{ regimen.regimen }}</h2>
+    <p><strong>推奨度:</strong> {{ regimen.recommendation }}</p>
+
+    <h3>臨床試験: {{ regimen.trial.name }}</h3>
+    <p><strong>試験デザイン:</strong> {{ regimen.trial.design }}</p>
+    <p><strong>主要評価項目:</strong> {{ regimen.trial.primary }}</p>
+    <p><strong>副次評価項目:</strong> {{ regimen.trial.secondary }}</p>
+
+    <a href="/">戻る</a>
+</body>
+</html>
